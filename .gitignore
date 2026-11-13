@@ -71,3 +71,7 @@ SEED_STATISTICS.md
 docs/superpowers/
 # next-agents-md
 .next-docs/
+
+# Local deployment binaries, database, credentials and backups
+/.local/
+/.pnpm-store/
