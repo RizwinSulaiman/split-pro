@@ -11,6 +11,7 @@ from upstream's generic Docker documentation. Detailed evidence and blockers are
 - Upstream: <https://github.com/oss-apps/split-pro> (MIT; remote preserved)
 - Install path: `C:\Users\User\Documents\ChatGPT\SplitPro`
 - Starting upstream commit: `5341ebb`
+- Deployment commit: `a873562`
 - Runtime: pinned Node `v22.16.0` under `.local/runtime/`
 - Database: PostgreSQL `17.7` on `127.0.0.1:55433`, database `splitpro`
 - `pg_cron`: source `1.6.8`, compiled with MSVC for Windows, extension schema `1.6`

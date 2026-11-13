@@ -11,7 +11,8 @@ at the end.
 - Upstream: <https://github.com/oss-apps/split-pro> (MIT license; remote preserved)
 - Install path: `C:\Users\User\Documents\ChatGPT\SplitPro`
 - Base upstream commit: `5341ebb feat: add expense comments with participant notifications (#796)`
-- Deployment files are committed on `main`; current deployment HEAD is `git log -1`.
+- Deployment commit: `a873562 docs: add verified local SplitPro deployment guide and scripts`
+- A follow-up documentation-only commit records this hash; use `git log -1` for the final HEAD.
 - Local URL: **http://127.0.0.1:3000** (listener confirmed on loopback only)
 - Host: Windows 11 `DESKTOP-HSDPRE9`, user `desktop-hsdpre9\user`
 
