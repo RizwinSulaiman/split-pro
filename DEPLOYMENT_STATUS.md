@@ -256,9 +256,9 @@ The restore-test cluster was stopped after verification. Recovery steps are in
 - Passwords and `NEXTAUTH_SECRET` are random, unique, and live only in Git-ignored files.
 - The live DB is loopback-only with SCRAM password authentication; the application role is
   least-privilege plus `pg_read_all_settings`/`INHERIT` needed by the recurrence function.
-- An unused pre-recovery PostgreSQL cluster remains on 55432 with a trust rule for its test
-  role; it contains no owner data and is not used by SplitPro. Stopped restore-test data
-  directories also remain under `.local/`.
+- Only the live PostgreSQL cluster on 55433 is running. A stopped pre-recovery data
+  directory (55432) and stopped restore-test data directories remain under `.local/`; they
+  contain no owner data and are not used by SplitPro.
 - Backups contain financial data and sessions; protect `L:\SplitPro-Backups\` and use
   encryption for real data.
 

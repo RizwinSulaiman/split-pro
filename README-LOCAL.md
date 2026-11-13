@@ -205,9 +205,9 @@ Do not send or commit the owner's raw Splitwise export; it contains personal fin
   partition; use BitLocker or an encrypted, access-controlled backup target for real data.
 - Rotate the database password and `NEXTAUTH_SECRET` if either is exposed. Rotating the
   NextAuth secret invalidates sessions.
-- The test environment has three PostgreSQL clusters left from earlier attempts: the live
-  cluster on 55433, an unused pre-recovery cluster on 55432, and stopped restore-test data
-  directories. Only 55433 is used by SplitPro.
+- Only the live PostgreSQL cluster on 55433 is running. Stopped pre-recovery and
+  restore-test data directories remain under `.local/`; they contain no owner data and are
+  not used by SplitPro.
 
 ## Build notes
 
